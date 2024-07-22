@@ -1,0 +1,104 @@
+.effet:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+
+.default-background {
+  background-color: rgb(50, 47, 47);
+}
+
+.synergize-container {
+  background: url('https://img.freepik.com/photos-premium/degrade-couleur-orange-brillant-fond-granuleux-noir_941600-16462.jpg?w=740') no-repeat center center;
+  background-size: cover;
+  padding: 2rem;
+  border-radius: 15px;
+  text-align: center;
+  color: white;
+  max-width: 1500px;
+  margin: auto;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.input-group input {
+  max-width: 500px;
+  border-radius: 30px 30px 0 30px;
+}
+
+.btn-get-started {
+  background-color: #d1ff00;
+  border: none;
+  border-radius: 30px 30px 30px 30px;
+  max-width: 200px;
+}
+
+@media (max-width: 768px) {
+  .synergize-container {
+    padding: 1rem;
+  }
+
+  .input-group {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input-group input,
+  .btn-get-started {
+    width: 100%;
+    border-radius: 30px;
+    margin: 0.5rem 0;
+  }
+}
+
+.input-group {
+  max-width: 500px;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.form-control {
+  border: none;
+  border-radius: 0;
+  padding: 15px;
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-get-started {
+  background-color: #d0ff00;
+  border: none;
+  color: #000;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-get-started:hover {
+  background-color: #a4cc00;
+}
+
+footer {
+  background-image: url('https://www.publicdomainpictures.net/pictures/190000/nahled/black-background-1468370534d5s.jpg') no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  padding: 5px 0;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  color: #d1ff00;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #a4cc00;
+}

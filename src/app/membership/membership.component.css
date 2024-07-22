@@ -1,0 +1,13 @@
+.fixed-right {
+    position: sticky;
+    top: 0;
+    right: 0;
+    border-radius: 15px;
+    background: url('https://e1.pxfuel.com/desktop-wallpaper/345/807/desktop-wallpaper-orange-and-black-gradient.jpg');
+    box-sizing: border-box; 
+  }
+  body{
+    font-family: 'Instrument Sans', 'Instrument Sans Placeholder', sans-serif;
+  }
+  h1{font-size: 70px;}
+  p{font-size: 18px;}
